@@ -1,4 +1,3 @@
-FROM
-RUN chmod 755 /docker/all.sh && \
-    ./docker/tfrun.sh
+FROM OSX / Linux / Cygwin
+RUN ./docker/go.sh
 CMD ["/bin/bash", "-D"]
